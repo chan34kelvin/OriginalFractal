@@ -1,9 +1,11 @@
 public void setup(){
+  background(0);
   size(500,500);
 }
 public void draw(){
   fill(0);
   cir(250,250,400);
+  //cir(250,250,250);
 }
 public void cir(int x,int y,int cirlength){
   if(cirlength <=20){
