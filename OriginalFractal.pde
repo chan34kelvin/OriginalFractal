@@ -12,9 +12,9 @@ public void cir(int x,int y,int cirlength){
   fill(255,255,0);
   stroke(2);
   strokeWeight(2);
-  ellipse(x,y,cirlength,cirlength);
+  rect(x,y,cirlength,cirlength);
   fill((int)(Math.random()*255),255,255);
-  ellipse(x+cirlength,y,cirlength,cirlength);
+  rect(x+cirlength,y,cirlength,cirlength);
 }
 else{
 cir(x+cirlength/2,y,cirlength/2);
